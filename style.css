@@ -1,0 +1,86 @@
+/*---------------------
+     font, color and variable setup
+     -----------------*/
+:root{
+    --c-red:red;
+    --font-base:var("Stardom", sans-serif);
+}  
+body{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+} 
+.a{
+  text-decoration: none;
+}
+#section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+p{
+  font-family: var(--font-base);
+}
+
+
+
+
+
+
+
+
+
+
+/*-------Button
+----------*/
+.btn{
+  font-weight: 600 !important;
+}
+.btn-primary:hover{
+  background-color:var(--c-red) !important;
+  text-decoration: underline;
+}
+
+
+
+
+
+/*-----navbar
+---------*/
+#nav1{
+  border-radius: 20px;
+  background-color:rgba(0, 0, 0, 0.3)
+  
+ 
+
+}
+#hero{
+  background: url(../img/home/backpacking-tours-sri-lanka-weather-98_nvten.avif);
+  
+}
+#section1{
+  font-family: var(--font-base);
+  font-size: 100px;
+  font-weight: 800;
+  
+}
+/*-----about us
+--------*/
+.about{
+  font-family: var(--font-base);
+  font-size: 80px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.section3{
+  text-align: justify;
+  padding-top: 20px;
+  font-size: 20px;
+
+}
+.image2{
+  border-radius: 50px;
+}
+
+
+
+  
